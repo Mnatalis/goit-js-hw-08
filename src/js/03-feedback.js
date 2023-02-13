@@ -2,6 +2,7 @@
 import {throttle} from 'lodash';
 
 const form = document.querySelector("form.feedback-form");
+
 function readStorage(){
   const storageRawData = localStorage.getItem("feedback-form-state");
   const storageData = {
